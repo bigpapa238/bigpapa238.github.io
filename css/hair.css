@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+
+iframe {
+    position:absolute;
+    right: 42.5%;
+}
+
+
+@media (max-aspect-ratio:1/1) {
+
+    
+iframe {
+    position:absolute;
+    left: 80%;
+    top: 1000px;
+}
+}

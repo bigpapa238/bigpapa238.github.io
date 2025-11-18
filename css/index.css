@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+p {
+	position: absolute;
+	right: 35%;
+	top: 255px;
+	display: block;
+	padding: 20px 20px;
+	background-color: rgba(255, 255, 255, 0.2);
+	color: white;
+	border-radius: 20px;
+	text-align: center;
+	font-size: 45px;
+}
+
+
+@media (max-aspect-ratio:1/1) { 
+		p {
+
+		position: absolute;
+		top: 30%;
+		left: 40%;
+		font-size: 130px;
+	width: 100%; }
+
+		
+    nav {
+        position: absolute;
+        font-size: 100px;
+        left: 50%;
+
+
+		
+    }
+	}

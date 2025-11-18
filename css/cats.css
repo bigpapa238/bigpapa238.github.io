@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+
+h1 {
+    font-size: 350%;
+}
+
+h2 {
+    font-size: 90%;
+    background-color: rgba(255, 255, 255, 0.425);
+    border-radius: 30px;
+    width: 90px;
+    text-align: center;
+}
+
+
+.karl1 {
+    position: absolute;
+    top: 35%;
+    right: 40%;
+}
+
+.schnitzel1 {
+    position: absolute;
+    top: 55%;
+    left: 15%;
+}
+
+.schnitzel2 {
+    position: absolute;
+    top: 80%;
+    left: 0%;
+}
+
+.schnitzel3 {
+    position: absolute;
+    top: 90%;
+    left: 70%;
+}
+
+.tc1 {
+    position: absolute;
+    top: 45%;
+    right: 20%;
+}
+
+aside {
+    position: absolute;
+    top: 90%;
+    left: 78%;
+}
+
+
+@media (max-aspect-ratio:1/1) {
+
+    .schnitzel1 {
+        position: absolute;
+        left: 30%;
+    }
+
+    .schnitzel2 {
+        position: absolute;
+        left: 0%;
+    }
+
+    .schnitzel3 {
+        position: absolute;
+        left: 155%;
+    }
+
+    .karl1 {
+         position: absolute;
+        left: 80%;
+    }
+    .tc1 {
+         position: absolute;
+        left: 130%;
+        top: 50%;
+    }
+
+    aside {
+        position: absolute;
+        position: absolute;
+        left: 165%;
+        top: 91%; 
+    }
+}
